@@ -1,0 +1,54 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+	margin: 0;
+	margin-bottom: 100px;
+
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 15px;
+}
+
+
+
+nav {
+	float:right;
+}
+
+.logo img{
+	float: left;
+	max-width: auto;
+	height: 100px;
+}
+
+header {
+	height: 100px;
+	padding: 10px;
+	margin: 0 px;
+	background: grey;
+
+}
+section{
+background: white;
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1)
+	  }
+
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+
+}
